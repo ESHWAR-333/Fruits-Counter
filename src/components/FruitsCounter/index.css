@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 100px;
+}
+
+.image {
+  height: 250px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  justify-content: space-between;
+}
+.image1 {
+  margin-right: 20px;
+}
+.image2 {
+  margin-left: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  /* margin-left: 30px; */
+  background-color: #007bff;
+  border: 0px solid transparent;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  width: 350px;
+}
+.button1 {
+  margin-right: 30px;
+}
+
+.button2 {
+  margin-left: 30px;
+}
+
+.number {
+  color: #ffd569;
+}
